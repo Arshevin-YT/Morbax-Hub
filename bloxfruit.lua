@@ -1,4 +1,569 @@
--- protected by: discord.gg/25ms
--- redz hub: discord.gg/redz-hub
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Main/main/Library/V3.5"))()
 
-return(function(...)local e,z do local I=math.floor local E=math.random local p=table.remove local x=string.char local M=0 local o=2 local y={}local W={}local S=0 local J={}for I=1,256,1 do J[I]=I end repeat local I=E(1,#J)local z=p(J,I)W[z]=x(z-1)until#J==0 local B={}local function c()if#B==0 then M=(M*233+13724065440763)%35184372088832 repeat o=(o*6)%257 until o~=1 local E=o%32 local z=(I(M/2^(13-(o-E)/32))%4294967296.0)/2^E local e=I((z%1)*4294967296.0)+I(z)local p=e%65536 local x=(e-p)/65536 local y=p%256 local W=(p-y)/256 local S=x%256 local J=(x-S)/256 B={y,W,S;J}end return table.remove(B)end local R={}e=setmetatable({},{__index=R;__metatable=nil})function z(I,E)local e=R if e[E]then else B={}local z=W M=E%35184372088832 o=E%255+2 local p=string.len(I)e[E]=""local x=170 for p=1,p,1 do x=((string.byte(I,p)+c())+x)%256 e[E]=e[E]..z[x+1]end end return E end end local I={e[z("\vI\b\012\027\146y\2007\216*v\023\139Bh",8746657825303)],e[z("&Z\191\170\198\006\b\208]+R4",8628389302997)],e[z("G\174\243\201\189E\006\v\132\132-K\b\002]8",29108969252196)],e[z("\017\226\210\129\243\018\025\246",18001112120162)];e[z("\248@\023\223vb\247N\019\028\147\224\172\2298\028\182S\020$",34279445356772)];e[z("MK\245\166",6798516457376)];e[z("\143{\152,\170\027y\235\139\0313\211",19644426644943)],e[z("\153\188\030,\2318\172\247\211L\141\255\191?\182\241",3386311027958)],e[z("\012m4\199^\129:[\222\154NYB\tpr",23040598950674)];e[z("K\186\238\181\218\226\160\182\026\213\164\158\153t\175FPj&{",11112498031102)],e[z("\016-\169$\197{&\175\171\v\176\207\132\030\253\027&[\211\018",19465557437735)],e[z("\204D\233\150\157\248\194\245/\190j\092\2111I\192",30390701857732)],e[z("\205\012\1616\021\201Vu\164\206d\202\210\174/L\129\173\140\230",32478960276333)],e[z("\004?=%O\2338r\t\165\194\137\175\1806F\188Rm\019",25154311641836)];e[z("\017`y\139Y\144g'\v\137R\136]\146\251\129",7573534969021)],e[z("n\131R\206\163\203\252\001\251\001!\219z,\1998",10307513390681)],e[z("$\168\183D6\029B\021\0298A\133\155\1802\178",24619471839516)];e[z("\191K\001\012\219\2405\1841\245\025\242\127\198w\144P\016\180\197",28495199291310)],e[z("Nf\016\213",22920045479531)],e[z("\158\210\156\a\1988^\136_@(\171\234\030\163\250\154;l\230",24107125629384)],e[z("\191\026s\025$\165\237G",15343316583820)];e[z("{qpc\018\190\170\1836\197\003\224",19390345089712)],e[z("!\217obG;<\a\2004])",1295524642144)],e[z("\159C:\245h\225]\176\197Q8\247",20295097045753)];e[z("x\209\149XfY\184.\142\163k)H\191!S",7344194997587)];e[z("-\174\238\137J\012]\a3\139\152d\154B#\146",6472405066373)],e[z("\187\2442\155\030\158\191Gd\170\136\220",34183736908688)],e[z("\201\1811n\228\173gX\158W\2236\130fJ\015",26792763932245)],e[z("\149\205\252%\000\148\248\152G\220\140\029\243\021\241M\133\180\249Cx\212\2520\143\194\248\194\004.i\227b\022~\020\177\174\184\2365\156Q\233\200\142\242x\196Qi\254",26181582716570)];e[z("\133\029\018\n\237\027k\169",15742747178939)];e[z("\230*\245\020\215Z\185\202K\140-\178\025\227\131\198\006\165\200\232",27603315168422)];e[z("\130\152\226,\201\244c\015\158\222D\180\191\143\172T",3235103197730)],e[z("U!\213\161:\228EsQ\178\154I\231\247\214\027",33874792196983)],e[z("6d\146\005\146`a\225,E\137\181",26548254022796)];e[z("z\212\142n}\235\183\245\134\163w\185\174\n~\017",19235798998018)];e[z("\197\135\014\v\214\133z\202\014\232^\178\146\212z\149",34683899683432)];e[z("L\161q\v\237\169\169\"Rh\148\251z\233\240\233",32577094585844)],e[z("\197\002\2348Y\173R\253\127zac\171\002~R",27910664469565)],e[z("\250Eq\232u\025\000o\144!\r\237\015\029\253\000\229\255K\148",4792857436423)];e[z("\023\157\161\144\191\154u\131\a\228\026%\239\232\019\222Ead\236\139\021\028\024\029\210\199\a\235QW\022NH\1944\167\152\170m",13549935967256)];e[z("\196\189\133\241\029\219\168-\139'\195\161Y\225B\200",34126388188150)],e[z("d\092\170\019@V\154\2470\n\242\b\131\180\172p\0266*\026\n\234\171\179\198P\164\128\026\223Q}\192\135\191\230\163\128\016\136'\0063\031?)\155\014",4248000949031)];e[z("\137fU\199\020\218Sq;\n\169\218",5979000780642)],e[z("\224LR2\221A]\003\022D7~4XIOE\140\159\216\143\129\021e",25490807474821)];e[z("m\027\235y`+x\2450\195\166\225",26447835011452)],e[z("4\025M\172\015q\220\178q\092}\154",27331448410371)];e[z("F\248\230\139\201\244\174\022\000\229\235\0168\b\201\245,\243\222\002",20963726899682)];e[z("\206\181\000\021zCX|\2013x\187Z\166\207\14799\215\023\nR\226\a",9642778979484)];e[z("\245\178\150\020\132\143\152\201\031|a\249\210\249\128Vv\a?g#|\030$\161\019\205g\162\214\227g\203Z\031\149}\235\241\157\023\242\162E\140\241x`\174\135z\024\203K\231\147J/\224\151",29417255454746)],e[z("L(f\217\234\228\160/\152\247\195\229\229\026\193+F\003\132\249",9590800203726)],e[z("\024\141\165\199d\209m\213\022\136\165p4C\127T\a\234\224\175",22814629172583)],e[z("r\202zZ\021\190\136\tko\241yc\233ZD",13158802016786)],e[z("\133[\002\208t\255\210\016\031&\015\200\152\1888\127",27412695620089)],e[z("*\1448\002\129]ws\228H\226?o_\201\233",31664250597310)],e[z("8\202\000\030l\132\t\246\180\136\189\145\242\232\016\t*\231>\0198\237\135\129\022G\209\141\213\245\b\167\148\249\233\025;\030\146G}\"\127&'\132CR^P\001\227\028Q\189\023\206\138\173\190",14593784198518)],e[z("\092\138M\217",14894952524154)];e[z(" S\244Y\127$D\v\168\145Fq\206\175\131\135@\152\003\170",27051451678392)],e[z("\235u\239\141t\190\145\234y&\234\230\250\161\192\162,\230\180\175",2663145279009)];e[z("\142Y\245X\183/O\149Em\003\a\216n\208\190",31759727746245)];e[z("\180\231\168g\1552h\164",20791610951074)];e[z("\227ndu]\169{\000\189\137\198\1768\"h\146\240\224\226\136",12604160215172)];e[z(" m\128%\169\210Rl",24339003702458)];e[z("\029\162\243\207\209\148\175\005H@T|\1728\156[",10436810878760)];e[z("\143\178\169\022\233\206\173\015\1370\178v\223FvtU\129G\130",21851423692989)],e[z("\158\162V \195\239\245\175\130\157\238\156vP\169I\161}\196\247",11765100492419)];e[z("\014\155\138\229\179\247FJ7T\144K\1654\228\135\251O?\251",6742558174299)],e[z("N\194\209\t)\132\004\183z\228Z0\137\015z\255)kY\248\214\204C\024:\209\164\147\226\1694\216\226\222%P\031\021>\143\"\237)D#\189\251I",9711661873671)],e[z("@\169B\128\207\186L\250\162S\219\192HYze",32201167734356)];e[z("(\228J\246\255\169\210\222\176\246GM",603169879682)];e[z("M\146\187\023-r%\r:\130\1787v\244~\a\239W#\178",24751500471066)],e[z("\191k\017\131\171\166`\029\233\144\138b@=\015~",25873868940330)],e[z("r\183.yt\144\159\244\222\01825\208_\133\238I\128\206`\253\181\a\247\155z\171\243",14445425070242)];e[z("3\021\200\136\016h\149\1516$<w\130\216`I",4491932092574)],e[z("\155V\203\157\tQ\160'\004\209\138\176",8896240393576)];e[z(",\166\026\176\247mk\142",32802122797229)];e[z("_\183]i\019\2232\031\145\148\197\014S\251\187\nY5\201\153",32782752107906)];e[z("!\199YA|\230~\197\205\160\127\252\196\180\175\246D\020\167(",18959347250454)],e[z("T{!\v\249'\202 \024{\163\229",14823834475217)];e[z("V\155\162\003zb\"\247\194;\b\141u\1490\030\023\168pi",4809808088076)];e[z("\138EEQ\149\025\017\225\1776\030\232,\200\176]t\175\155\238",7733723054354)],e[z("I\227\016\145\212\212Z\170r'\151\183K\187[\147",1463326507779)];e[z("\239x\176\138\018\018\236\170\202\242\145J\n}\198 ",11231138122949)],e[z("\030J\214+\236_\180\017\166\170)\154\193-\185\219",6346957910409)],e[z("Z\154\217`\196\166\156:\019\244\002\239\231\219;\229gB]\216",29954461308764)],e[z("@c\031m\171\249\139\215",12221145958482)],e[z("%r.Xy\188A\210\223wI\000\198+h{",3238795836026)];e[z("\018\243\149\131\012\154\255\188\169E\023\196\a%]\232\253<\029\226",23422284700806)];e[z("?\016\128\199?(\203\140",22137568233791)];e[z("\187\183\212u\209\239\027\139\147\210+-\199R3\019g3\145x",19512818329081)];e[z("D\r\218\242\000g\213I\217\131\151\198\158\228\146\212",18451406376911)],e[z("\139\017a\006t\236\161\240\142\207\177\244\000z\217\221",8135858355508)];e[z("\158ivu\241~\213\248\n\027\022\199v[[\171`\185b\148",12500587585203)];e[z("\243\2028\232\016X\162\176\021r\189\174\214\158\248{",2070174335427)];e[z("\246\1381\200\251\017\247\163\230>\012\172\134\"Hr\221}V\002>\149\237\234",26018176059716)],e[z("\169\146<\244h\139V\164\006\149\204B.\248\134\234",10451881959609)],e[z("b\218\160\242g\157\2105\215\b\229\092\bD\144\016\240\153Q\217",2966250952535)],e[z("S\207\231\208\196\195\147\242Jf\171\248hw\182\b\"u\133\252\031&f\213\a\254L\197",11021773969268)];e[z("\185\012\240\169|\014m\221\204n\174\180\207\174\195\020",19961428011055)];e[z("\015u\251\168",13401078925805)];e[z("1H-/\220)\165\2448^\155\237\187A\183s9\174? ",5925717264577)],e[z("\246\174\"\208c\146\134Y8\244\228nx\148J\031\192\ro\015",10058324404557)];e[z("5\172\152\175?&\a\158[\177B\017\020\179\221~\219L\1534",912198156372)];e[z("\201\162\1864u\231E\234\015s\022\241l\209\092\223\181\131\232O\026;jC",8646858248746)];e[z("\127\172\252=\203q\170\023G\206]\003",17676596587896)];e[z(";T\169\177\174G\254pi\203h.",15351853724032)];e[z("^^\249iv*0^9\221F\217\200\233\003w",19620934293957)],e[z("\135W}\168\130\0219\165/\138\092\160\019\140\188\2126WIn",12494363035146)];e[z("\002\026Xu\157\149\216\028\0189\002\213\151\141\195d\224\018\168`\194{\221Q\207}\197M5G\248\2177\160Y\1897\163\154\218\191E\0166\148\164\155\227\160\170\191\192\185\001\177\028:[\018\156",3279080572307)];e[z("\a7KY\253\136\129\194\023\214EQ",22715109423608)],e[z("jr$`\176\139\130R\153\017\217\r\160\015O\2222'\234\027\174\006j\190f+\230\023{ON\232\157\240Y`\199\170\209\022\023\247\132\255\029\201\005\021\175\160\145R\201F\246\222_\020\222D\201l\153\159=\166%\2339\149n\173\249\166\183\144\023ti\255\148\232\138\031&1\168\179 \189\242\175\239\137\149r:\214B\156I\205Sv\134\147\031y\152\158\169\170z\222'\155\172\173t&\218\t\244p\140QE\192\221\240\015`\241\179*|\189\204\232\137\187\184QL&\168\"\134\178e\160J\128b\241qz\133\002$C m\161\186\162?\253\166\186\193\199\a\235\017\242\147SY\134`P\167\155_\217\b\188\191\236^:q\144\208\1283\016n\219y]\230Y\203\230\238A\128\205_\164\137l\029j\212a\140\186\193\148\192\154\180\190\130\015\218\1493,\182\148W\142\017L3!\243\178\210\235\155\188\005\172\179m\152,L\145kt\255\135D\204\146\210\031\168\228\233\172`\171ru\001\rt5z\254e\130\n\235\188\199\177\029\177=\029y\239+J\220\183\092\023\1842\180\001\228l\140\180\210\180\vf \146[\195D\207\128>:R\252\1829\153?\165\134\183\151w\016\1862b\222\175\154\185\198\170\031|\152tC\203\231\160\132\003\172\180sa`#\023\v\135`j\015\194B\029Z\237*\014%2.\132B]<\002\206p;?\173\248\025\015\228\203\179P\231\253\173\230\185S \210\152\127h\149\149\188`\255\172\001\211=p\196;$\186\182\188\031+\"\169\137\252\146\247\197y\196j\210\148\205\189A\027m\253\0013\001-\026\254pA\191\023\147\179\150P\0037\027\233!3\176Gub\146\004\174\255\171KJ[\166/\217\243o\195A\198a\222\023\156\234uD<\015\161\127\143\198x\167\153\251\161\133\165\229\186\016S:\186\2381E\092\215\006In\249\140\189\198\0228\187\163\018\r\128\201\192K\016A\a\162\208 \164\250\030\230\1942)\252\001\239\200\223\254Z\001\199S\165\022\155\150U\190\130m\140\028\nL\190\141%\023\221\228\141TrY\239\016\153\214\151\026\130\241\027\230\143[n\193\184\164\152\012t\253![\192\147\251\238\177Ec[Q\217\237\020\014\128\0192\161\186\132\186\202IY\143\175\133`P7\199c*]\190\146}\003_\135\191\211\206\175zp\001\252e\237C\183\166+\215P\235Pl\251\a\1585\018\211\128\158\202\25341\176z\012\192\226\241q\166\205_2\145\243\230\221c\182\196V\191\174IJ\002\171\218\217\210_E\136\195\207\181\154\171<\2000\170\199\240\092E7LY\1356\182@\r\182O)\185\129\171\215p\183x\129Ibo\005\152\224_\148\145\151\173\131X:<8\131\165B\n\229\161#\206LlI35,`\147\156\vV\248\188e\155\017\170(\221\015\186\175\r\151W\162-`\1330\028\251\150\130\142Qt\006\215v\230\208\236v\197@\206\000\163zX\184\006y\004|\191)\227*&,?\019f\130\135\131\225C\147\b\182\012h\206\2402\144\187\030\019\016\017\189\2385\017\028\015\193\246\229\176\176\v\184\194T\227eH\172\254\020\243\154\223\255\164C\208\148Wzl\166\155\133o\187\021\017\134\132\001&\170\228\183\185\156\002\001\003\132\t\211\v\208\153\197\234Y\003\146\209\180\172\143\189\168\209B\127\160/\183\159\149\162\183\142\254\177\r2\136\175R^\003\186m\133\215\133\225\r\005\239]T-\136\232\001\181\175Uq\021\001\230\248\250B\006=\015\212U[=y;\025\197)\015aW\193\163\146\"v\254Li\012K\209\152\180\160\224\216\203!\221f\n\201@\2416y\132C\t@:\181\134\092\178\191\166mlbsl\253\145I\193d\194\145\245\169\153\201\001~\255\221f\249`\193\243J\247\142e\188}\012\152\bA\163-\223\234\026q\177y\222\164\210\168\195r\190^!\212J\021(v\188\225\171\169b\165.ae\176\142hk\022.?\230\2536\244\141\137[\143\150\196$\162\1494?#\216\217\215\146\148\002\207\182J\136\162470\230WA\132\242\137\179a\191\r\225\234/\255\002\131\200\209\231`\228\030\161\137\031IC\166i\145\"\228^\249W_\245\092lI\006Q\153\143o\144\227c\214\232\210\173\234K\236C\148\216j\145\248\211\249\092\019\177W\191G\225i\181\253\249\221%\025\186\167\186\249\161\005`\158\020\000~\163\127",2993963757982)],e[z("s#\197\000\2207\vq",12012359898432)],e[z("\021\207\238\092",2455250827501)];e[z("\v]y\250\159v\b\170}w\149{MD\181\233t\210\006\243\r\2514\156",16937641191083)];e[z("\175M\194\1719\198=\184\140\r\223\209\211Hbw",1318448156104)],e[z("eO\237g",14604442293950)];e[z("\026\174F\206\160\018\170\203h\176\202\178\207\0021\092\166IV3",28019444097570)];e[z("\221\132\169)I\162\208'S\202Q\196",27172620411536)];e[z(",\128w\026!a\179\tO\030\201jYu\243\255",33878388708839)],e[z("\135\238)\155\204\001\131\188\n\000A o\158e\226",29759568964061)],e[z("\213\145\196\175\030\000iQ\092\142\245\092_\226\245\157",22836133351459)];e[z("\028,x\250\201!\181\222G\187\132\186\015$\006\154\208nZ\227\233\027\174\022",5960602355212)],e[z("\240\024\174h\015\198\188\150\"f\1626,\173\172r[\193\211\218",16666740317414)];e[z("\021\002\161\030[\128\215\092\237\214\202y",9623341939767)];e[z("I]\186\229\205\b`\252\012\178\177Wb\172[\158\209\241=g",4863783785039)],e[z("\006\012{&)\218Wgl\029^)",3329842847130)],e[z("\r`\226h\143\180\190\030p&y \197g\221b",24781666533689)];e[z("0\205\254&\255\245\238\160\232\092Wm\004^\016\148\226\179\004A",29080729372523)],e[z("\197\227\173\028$\212{\165{\164\196\192U_\235\r\149c\0251",8482302422475)],e[z(">\211\092\191\006K\148\157l\233\205\169\243\230\170\233!:\204\213",25600272418962)],e[z("9\241\018\248\019\030\150t!L\131\164",9303456094240)],e[z("\171A\186\143@\025Fo",27097966310832)],e[z("\226ao\1350\139\132j\246M\175\255",7999188087171)];e[z("\244S\225\018\164{{yn\220\025|\199\232\157\1569.^\216",24600180337738)];e[z("\144\178.\245q\027\165\168\178a\190\180~S-\175K\190m\129",14082701887725)],e[z("\218\005\232\130\016Y!\015\232\198\005\160\200\v\176\234",13322968576221)];e[z("\234\247\134\235S-\163\143",20158486368066)],e[z("\154\252@\133g}V$\"\015Qu",9696769296934)];e[z("\140\092\201\012\252\153a\154\166IGV#\173\203\14587R\146",25711833057531)];e[z("o\254\230Z\147\180\235[\148gu.{\213\146\164",3290652756232)];e[z("\217\228\2390#\236\029b_\018\242\014p\025\166t",30521115617736)];e[z("\127\227\135?;\172\223w",11733397233901)];e[z("\149,9\176",178669430720)];e[z("\236\205\130n\015l\155\245A\197;\165j\173\014\226",3374297311753)];e[z("\173T\2474\153\145\000\188\177L&\157O\213~/",6592313665306)],e[z("D\004)\173\249\173\146'o\tdQ\224_\208\024\190\203IW",26311180653155)],e[z("\167\157\157(\192{{\151]y\133M",10156959490124)];e[z("\149\000\031\146\147\"D'y61\211X<&7\015%\018?",28826815029378)],e[z("P\234\223\006\207\169\145\147\165\012\026\132\014\130^\1277*S\133$N7\153",19308933199134)],e[z("^\241\tT\129W8\231",14773611982095)],e[z("\020~\201%0\166\250\028*\149\019\2386d6j",11967748421172)],e[z("\163:\151\163\164Q\218c",28060457556397)],e[z("\025\173\232\185\179\174D\142\128\151xA\188\185\174\153q\142DH",27016464675084)],e[z("\031\130\006D.\144\237\210\v\191\128V\183\176\002\197",3313211654748)];e[z("\255\004\138~\134\020'\219",14175236990138)];e[z("\002\027\154p\149\134\184\171Br\248\187\160\249\191I",73796156264)];e[z("\163,\v\153\015\"N\0152\194\178\245\236\232\014\195\2413\134;",14587297295629)];e[z("\227'\2009\212\187\232bXk\1999Y\016\237\030",7913689805317)],e[z("\005\130\165\232*\182_x\215\150\138\235\005\232\183\162\001\236/\243",16001722513837)],e[z("\2426\092\211",30680768692971)];e[z("\206\184\253\vy\206X\243",22299348780506)];e[z("|+\212-\246s\127\144\144\175\227N",10699904529108)],e[z("\247D\a\225\199.yLn\023\233A<\002\vf",6848997211010)],e[z("G_QAC\015@X\004vh&\201\222tn",23525844178414)];e[z("\a\016\157m\138Q\022\133\031\092\177.\219\251k\156\152\253\0290",12039752405273)];e[z("\181@\161\153\239\2409\237\172\205\157\169R%\193\149",21865439694155)];e[z("4+$\189\211G\19699\196%\030\225v\138f",20446552029387)];e[z("\222\230\188\241\165\233\246\183R&\018 i\020V\213",21386958588149)],e[z("\161\136\216C\023\237\147?\017hS\160",19187073020262)];e[z("\128\1719\a\b\139\178\250\018\138\173\150A\006\197\137\161\183j \207\237a\206)\225\029\158",31387987303495)];e[z("=\227\221\241}+\207R",7992349633509)],e[z("[\128b\189\235\242\225\165\172\141\217\255\192Z\201\026\2061\157\238",29351336679099)],e[z("\231e\171\134>O\207!\153l\0307g\215~\199\140g\020)",12852517340887)];e[z("i,o\196",8247334975871)];e[z("\128/0Hc\141\132\180\216Na{\160\r\216\240",20958492999762)],e[z("\127\189\142O\030\196\155\172\022\028i\152S\160\229N\212\143\251o",30493223437263)],e[z(")\172\130Y0V\146z",23854092993590)];e[z("\128^\163\154U^Q\176\234*L\252\251:o\208\172\229/C6\168\252]",6007578879163)],e[z("zsUzg\150\128\130\217*\137_\132\020\012\229\210\rys",18909682411069)];e[z("\187\193\179\025\169\241^\192",24794896748471)],e[z("\226Y+)i\233\220\226\001p|/",10243923342432)],e[z("\177\136O\236?\233\194S\222\162\167zU\224Z x&\006\227\213*~v",14992964747329)],e[z("\250\224\160\012\210^\236\193\141Hv\017\157\177\235\252",5130418063611)],e[z("\137\020\002:\232]\193\191rs\235@|\188\204\178",29295323626121)];e[z("\199ZNUM\187\248\015",27827175627484)],e[z("\133\185]\160;U\240*ta\n\231x\165\212\024",9561687736112)];e[z("\148,\163\171",15807396498308)];e[z("\248\004+\198\191YN#\237W\198\154X\017lv",17877582437998)];e[z("\188\167\184H\202\168\167\170",27628317676001)];e[z("H\234\253Z\003\159\025\179\179?Z\168\020\172@\216w\236\162\1470,L\203\243\234=\250\203\239e\0929\193\170\1720\157\136J\243\030\145\017l\224\151\181\249;\139\163",28421234387717)],e[z("m\244\251\021",22491851543748)],e[z("+\136\029\192\240\2207 \185\194\155\r",13754988943124)];e[z("\157r\153\244E\000J\129\028\a\"\223\13896\a",7101500903807)];e[z("A\219\226p\187.C\015%\165\017\v",3718730742112)],e[z("\211\192z\229\212[G\017g\021_\224\227CJ\230\196\016M\235",23941914891548)],e[z("+\243\"v\235\025b7*\225]t\014\026\249\164#\218(\178",5518367939166)];e[z("A\252\241\136o\162A\249",2786246050498)],e[z("|\177\225e",2899916846816)];e[z("!\145\128!\219\019\237\031\204\207Z\178\128\n\183\220",15062869377897)],e[z("\1473A!7\t\133iaY\025\128\212`\165\255y\023p\015",19244012869838)],e[z("\178\191\206\185\154E\177KY\166\255\237\249i\132\164",30171110122866)];e[z("\180k\227\129a\188\nn",34718930224404)],e[z("\025tMi\224\220\235&9\217\026\176\148\by.q\210\179W{\209B\227\189\216\021%\206m:\173G\017\023\176\227N\206g_\184\189\004\238N\190\216\002\186\158r",6405708049906)],e[z("\201\223<\018z\189\229Ln\025\024R\170j'\128C\207G]",21477951067035)],e[z("w\202S\170mN\171{|0^\031\014\020\254\221\160\194\n\173\148\180.\157\173\178\161\255",22236060838431)],e[z("\004\191\183\179\202H\193\249\bv\204S\216\139\155\000\138\235p\017",30279054522372)],e[z("=\211\128W`\223F>\168U?.",11377257156642)];e[z("\0005\229\142\195\014Qdh\vT\137\221\168\246Uv\219\aI\177\228\135,M\148\030n",10169806973533)],e[z("\163\152Y\218\026\206n\170",4371128682721)];e[z("\193i\128\170Q\146\230>2\210\160V",30777030266445)];e[z("c\027\227q\162\229%8\148v\189.\130\v\153\1973hW\031",1357975652599)],e[z("*\141\0056\221\239h'F\151\182\185\2476c\017",15407161167241)];e[z("\155V\n\199\145y\027\197\1447\006\202o]_\144\172\2540H\176\166\160$\227\206\153\183",6875617548751)];e[z("J\132d>\177\025\213Z\166\251\092\0258\253\154\255)\"\015m\014l\240M",34860346898114)],e[z("2\215\146\139\178o\192P\148\193o\0173\176I_",14194346810768)];e[z("O\192\027\205\167K\092\147",30120457576198)];e[z("\244f\188f\182\152\012\156sR\181a\228\
+local Window = Library:Start({
+  ["Name"] = "Morbax Hub | " .. Version,
+  ["SaveFolder"] = "Morbax Hub"
+})
+
+game.StarterGui:SetCore("SendNotification", {Title = "Script Status", Text = "Loading...", Icon = "rbxassetid://0", Duration = 10})
+
+local MorbaxHub = {}
+
+local Funcs = {} do
+  function Funcs:AddToggle(Section, Name, Content, Default)
+    return Section:Toggle({
+      ["Title"] = Name,
+      ["Content"] = Content,
+      ["Default"] = Default,
+      ["Callback"] = function(Value)
+        MorbaxHub[Name] = Value
+      end,
+      ["Flag"] = "SPD/Toggle/" .. tostring(Name)
+    })
+  end
+
+  function Funcs:AddDropdown(Section, Name, Multi, Options, Default)
+    return Section:Dropdown({
+      ["Title"] = Name,
+      ["Multi"] = Multi,
+      ["Options"] = Options,
+      ["Default"] = Default,
+      ["PlaceHolderText"] = "Select Options",
+      ["Callback"] = function(Value)
+        if not Multi and type(Value) == "table" then
+          for _, v in next, Value do
+            MorbaxHub[Name] = v
+          end
+        else
+          MorbaxHub[Name] = Value
+        end
+      end
+    })
+  end
+
+  function Funcs:AddSlider(Section, Name, Content, Min, Max, Increment, Default)
+    return Section:Slider({
+      ["Title"] = Name,
+      ["Content"] = Content,
+      ["Min"] = Min,
+      ["Max"] = Max,
+      ["Increment"] = Increment,
+      ["Default"] = Default,
+      ["Callback"] = function(Value)
+        MorbaxHub[Name] = Value
+      end
+    })
+  end
+
+  function Funcs:AddTextbox(Section, Name, Content, Default, ClearText)
+    return Section:TextInput({
+      ["Title"] = Name,
+      ["Content"] = Content,
+      ["PlaceHolderText"] = "Enter your text here...",
+      ["ClearTextOnFocus"] = ClearText,
+      ["Default"] = Default,
+      ["Callback"] = function(Value)
+        MorbaxHub[Name] = Value
+      end
+    })
+  end
+
+  function Funcs:AddButton(Section, Name, Content, Callback)
+    return Section:Button({
+      ["Title"] = Name,
+      ["Content"] = Content,
+      ["Callback"] = Callback
+    })  
+  end
+end
+
+local Players = game:GetService("Players")
+local Lighting = game:GetService("Lighting")
+local TeleportService = game:GetService("TeleportService")
+local Workspace = game:GetService("Workspace")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Player = Players.LocalPlayer
+local Enemies = Workspace:WaitForChild("Enemies")
+local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+local CommF_ = Remotes:WaitForChild("CommF_")
+local Map = Workspace:WaitForChild("Map")
+local WorldOrigin = Workspace:WaitForChild("_WorldOrigin")
+local NPCs = Workspace:WaitForChild("NPCs")
+
+local _setclipboard = setclipboard or (function()end)
+local _hookfunction = hookfunction or hookfunc or (function()end)
+local _require = require or (function()end)
+local _getnilinstances = getnilinstances or (function()end)
+local _isfile = isfile or (function()end)
+local _delfile = delfile or (function()end)
+
+local Raids = _require(ReplicatedStorage.Raids)
+
+local _env = getgenv and getgenv() or {}
+
+local Sea = {
+  [1] = game.PlaceId == 2753915549,
+  [2] = game.PlaceId == 4442272183,
+  [3] = game.PlaceId == 7449423635
+}
+local FruitTable = {
+  "Rocket Fruit",
+  "Spin Fruit",
+  "Chop Fruit",
+  "Spring Fruit",
+  "Bomb Fruit",
+  "Smoke Fruit",
+  "Spike Fruit",
+  "Flame Fruit",
+  "Falcon Fruit",
+  "Ice Fruit",
+  "Sand Fruit",
+  "Dark Fruit",
+  "Ghost Fruit",
+  "Diamond Fruit",
+  "Light Fruit",
+  "Rubber Fruit",
+  "Barrier Fruit",
+  "Magma Fruit",
+  "Quake Fruit",
+  "Buddha Fruit",
+  "Love Fruit",
+  "Spider Fruit",
+  "Sound Fruit",
+  "Phoenix Fruit",
+  "Portal Fruit",
+  "Rumble Fruit",
+  "Pain Fruit",
+  "Blizzard Fruit",
+  "Gravity Fruit",
+  "Mammoth Fruit",
+  "T-Rex Fruit",
+  "Dough Fruit",
+  "Shadow Fruit",
+  "Venom Fruit",
+  "Control Fruit",
+  "Spirit Fruit",
+  "Dragon Fruit",
+  "Leopard Fruit",
+  "Kitsune Fruit",
+  "Gas Fruit",
+  "Blade Fruit",
+}
+
+task.spawn(function()
+  local Container = ReplicatedStorage.Effect.Container
+  local CameraShaker = _require(ReplicatedStorage.Util.CameraShaker)
+  local Death = _require(Container:FindFirstChild("Death"))
+  local Respawn = _require(Container:FindFirstChild("Respawn"))
+  local DisplayNPC = _require(ReplicatedStorage:FindFirstChild("GuideModule")).ChangeDisplayedNPC
+
+  _hookfunction(Death, function()return nil end)
+  _hookfunction(Respawn, function()return nil end)
+  _hookfunction(DisplayNPC, function()return nil end)
+  CameraShaker:Stop()
+end)
+
+_env.CodesRedeem = loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Main/main/Codes_BloxFruit"))()
+
+_env.BossesList = function()
+  local BossTable = {}
+  
+  local function GetBoss(Objects)
+    for _, Boss in ipairs(Objects) do
+      local Humanoid = Boss:FindFirstChildOfClass("Humanoid")
+      if Humanoid and Humanoid.DisplayName:find("Boss") then
+        table.insert(BossTable, Boss.Name)
+      end
+    end
+  end
+
+  GetBoss(ReplicatedStorage:GetDescendants())
+  GetBoss(Enemies:GetDescendants())
+  return BossTable
+end
+
+_env.CheckMob = function(Value)
+  local Boolen = false
+
+  local function GetMob(Object)
+    for _, Mob in ipairs(Object) do
+      if table.find(Value, Mob.Name) then
+        local HD = Mob:FindFirstChild("Humanoid")
+        if HD and HD.Health > 0 then
+          Boolen = true
+          break 
+        end
+      end
+    end
+  end
+
+  local children = ReplicatedStorage:GetChildren()
+  if not Boolen then
+    GetMob(children)
+  end
+  if not Boolen then
+    children = Enemies:GetChildren()
+    GetMob(children)
+  end
+  return Boolen
+end
+
+_env.VerifyMaterial = function(NameC)
+  for _, Item in pairs(CommF_:InvokeServer("getInventory")) do
+    if Item.Type == "Material" then
+      if Item.Name == NameC then
+        return Item.Count
+      end
+    end
+  end
+  return 0
+end
+
+_env.IslandList = function()
+  local ListName = {}
+  local CheckName = {}
+  local Sky = {"Sky 2","Sky 3"}
+
+  for _, part in next, WorldOrigin.Locations:GetChildren() do
+    if part and not CheckName[part.name] then
+      table.insert(ListName, part.name)CheckName[part.name]=true
+    end
+  end
+  
+  if Sea[1] then
+    for _, part in next, Sky do
+      table.insert(ListName, part)
+    end
+  end
+
+  return ListName
+end
+
+_env.NPCList = function()
+  local ListNPC = {}
+  local CheckName = {}
+
+  local function CreateNPC(NPCGroup)
+    for _, part in next, NPCGroup do
+      local Head = part:FindFirstChild("Head")
+      if Head then
+        local QuestBBG = Head:FindFirstChild("QuestBBG")
+        if QuestBBG and QuestBBG:FindFirstChild("Title") and not CheckName[part.Name] then
+          table.insert(ListNPC, part.Name)CheckName[part.Name]=true
+        end
+      end
+    end
+  end
+
+  CreateNPC(NPCs:GetChildren())
+  CreateNPC(_getnilinstances())
+
+  return ListNPC
+end
+
+_env.ChipsList = function()
+  local ListName = {}
+
+  for _, Raids in next, Raids.raids do
+    table.insert(ListName, Raids)
+  end
+  for _, Raids in next, Raids.advancedRaids do
+    table.insert(ListName, Raids)
+  end
+
+  return ListName
+end
+
+_env.PlayerList = function()
+  local ListName = {}
+
+  for _, v in next, Players:GetChildren() do
+    table.insert(ListName, v.Name)
+  end
+
+  return ListName
+end
+
+if Sea[1] then
+  _env.MaterialList = {"Angel Wings", "Leather + Scrap Metal", "Magma Ore", "Fish Tail"}
+elseif Sea[2] then
+  _env.MaterialList = {"Leather + Scrap Metal", "Magma Ore", "Mystic Droplet", "Radioactive Material", "Vampire Fang"}
+elseif Sea[3] then
+  _env.MaterialList = {"Leather + Scrap Metal", "Fish Tail", "Gunpowder", "Mini Tusk", "Conjured Cocoa", "Dragon Scale"}
+end
+
+if Sea[1] then
+  _env.ItemListUpgrade = {"Cutlass", "Dual Katana", "Katana", "Iron Mace", "Shark Saw", "Triple Katana", "Dual-Headed Blade", "Pipe", "Soul Cane", "Trident", "Wardens Sword", "Bisento", "Pole (1st Form)", "Saber", "Slingshot", "Flintlock", "Musket", "Cannon", "Refined Flintlock", "Refined Musket", "Refined Slingshot", "Bazooka"}
+elseif Sea[2] then
+  _env.ItemListUpgrade = {"Dragon Trident", "Gravity Cane", "Jitte", "Longsword", "Koko", "Midnight Blade", "Pole (2nd Form)", "Rengoku", "Saddi", "Shisui", "Wando", "True Triple Katana", "Acidum Rifle", "Bizarre Rifle", "Kabucha"}
+elseif Sea[3] then
+  _env.ItemListUpgrade = {"Twin Hooks", "Buddy Sword", "Canvander", "Dark Dagger", "Fox Lamp", "Shark Anchor", "Spikey Trident", "Tushita", "Yama", "Cursed Dual Katana", "Hallow Scythe", "Serpent Bow", "Soul Guitar"}
+end
+
+local ShopTable = {
+  {"Frags", {
+    {"Race Rerol", {"BlackbeardReward", "Reroll", "2"}},
+    {"Reset Stats", {"BlackbeardReward", "Refund", "2"}}
+  }},
+  {"Fighting Style", {
+    {"Buy Black Leg", {"BuyBlackLeg"}},
+    {"Buy Electro", {"BuyElectro"}},
+    {"Buy Fishman Karate", {"BuyFishmanKarate"}},
+    {"Buy Dragon Claw", {"BlackbeardReward", "DragonClaw", "2"}},
+    {"Buy Superhuman", {"BuySuperhuman"}},
+    {"Buy Death Step", {"BuyDeathStep"}},
+    {"Buy Sharkman Karate", {"BuySharkmanKarate"}},
+    {"Buy Electric Claw", {"BuyElectricClaw"}},
+    {"Buy Dragon Talon", {"BuyDragonTalon"}},
+    {"Buy GodHuman", {"BuyGodhuman"}},
+    {"Buy Sanguine Art", {"BuySanguineArt"}}
+  }},
+  {"Ability Teacher", {
+    {"Buy Geppo", {"BuyHaki", "Geppo"}},
+    {"Buy Buso", {"BuyHaki", "Buso"}},
+    {"Buy Soru", {"BuyHaki", "Soru"}},
+    {"Buy Ken", {"KenTalk", "Buy"}}
+  }},
+  {"Sword", {
+    {"Buy Katana", {"BuyItem", "Katana"}},
+    {"Buy Cutlass", {"BuyItem", "Cutlass"}},
+    {"Buy Dual Katana", {"BuyItem", "Dual Katana"}},
+    {"Buy Iron Mace", {"BuyItem", "Iron Mace"}},
+    {"Buy Triple Katana", {"BuyItem", "Triple Katana"}},
+    {"Buy Pipe", {"BuyItem", "Pipe"}},
+    {"Buy Dual-Headed Blade", {"BuyItem", "Dual-Headed Blade"}},
+    {"Buy Soul Cane", {"BuyItem", "Soul Cane"}},
+    {"Buy Bisento", {"BuyItem", "Bisento"}}
+  }},
+  {"Gun", {
+    {"Buy Musket", {"BuyItem", "Musket"}},
+    {"Buy Slingshot", {"BuyItem", "Slingshot"}},
+    {"Buy Flintlock", {"BuyItem", "Flintlock"}},
+    {"Buy Refined Slingshot", {"BuyItem", "Refined Slingshot"}},
+    {"Buy Refined Flintlock", {"BuyItem", "Refined Flintlock"}},
+    {"Buy Cannon", {"BuyItem", "Cannon"}},
+    {"Buy Kabucha", {"BlackbeardReward", "Slingshot", "2"}}
+  }},
+  {"Accessories", {
+    {"Buy Black Cape", {"BuyItem", "Black Cape"}},
+    {"Buy Swordsman Hat", {"BuyItem", "Swordsman Hat"}},
+    {"Buy Tomoe Ring", {"BuyItem", "Tomoe Ring"}}
+  }},
+  {"Race", {
+    {"Ghoul Race", {"Ectoplasm", "Change", 4}},
+    {"Cyborg Race", {"CyborgTrainer", "Buy"}}
+  }}
+}
+
+_env.FruitList = function()
+  local ListName = {}
+
+  for _, Fruit in next, CommF_:InvokeServer("GetFruits") do
+    table.insert(ListName, Fruit.Name)
+  end
+
+  return ListName
+end
+
+local _home = Window:MakeTab("Home") do
+  local _info = _home:Section({["Title"] = "Information", ["Content"] = ""}) do
+    Funcs:AddButton(_info, "Discord Invite", "Click to copy invite server", function()
+      _setclipboard(Discord)
+    end)
+
+    _info:Seperator("Status")
+
+    local _timeServer = _info:Paragraph({["Title"] = "Time Server", ["Content"] = "" })
+    task.spawn(function()
+      while task.wait(2) do
+        _timeServer:Set({
+          ["Title"] = "Time Server",
+          ["Content"] = tostring(Lighting.TimeOfDay)
+        })
+      end
+    end)
+  end
+
+  local _localplayer = _home:Section({["Title"] = "LocalPlayer", ["Content"] = ""}) do
+    Funcs:AddDropdown(_localplayer, "Set WalkSpeed", false, {"100", "200", "300", "400", "500"}, {"300"})
+    Funcs:AddToggle(_localplayer, "Enable WalkSpeed", "", false)
+    Funcs:AddToggle(_localplayer, "Anti-Knockback", "", false)
+    Funcs:AddToggle(_localplayer, "Anti-Busy", "", true)
+  end
+
+  local _config = _home:Section({["Title"] = "Config", ["Content"] = ""}) do
+    _config:Seperator("Weapon")
+    Funcs:AddDropdown(_config, "Weapon Tool", false, {"Melee","Sword","Blox Fruit","Gun"}, {"Melee"})
+    _config:Seperator("Tween/Distance")
+    Funcs:AddDropdown(_config, "Farm Distance", false, {"10", "20", "30", "40", "50", "60"}, {"40"})
+    Funcs:AddDropdown(_config, "Tween Speed", false, {"100", "200", "300", "400", "500"}, {"200"})
+    _config:Seperator("Bring Mob")
+    Funcs:AddToggle(_config, "Bring Mob", "", true)
+    Funcs:AddDropdown(_config, "Bring Mob Radius", false, {"100", "200", "300", "400", "500"}, {"200"})
+    _config:Seperator("Fast Attack")
+    Funcs:AddToggle(_config, "Fast Attack", "", true)
+    Funcs:AddDropdown(_config, "Fast Attack Delay", false, {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"}, {"0"})
+    _config:Seperator("Other")
+    Funcs:AddToggle(_config, "Hop if Admin or Staff", "", true)
+    Funcs:AddToggle(_config, "Auto Dodge Skill", "", false)
+    _config:Seperator("Active Race")
+    Funcs:AddToggle(_config, "Auto Use Race V3", "", false)
+    Funcs:AddToggle(_config, "Auto Use Race V4", "", false)
+  end
+
+  local _server = _home:Section({["Title"] = "Server Games", ["Content"] = ""}) do
+    Funcs:AddDropdown(_server, "Count Player", false, {"1","2","3","4","5","6","7","8","9","10","11","12"}, {"5"})
+
+    Funcs:AddButton(_server, "Hop Server On Count Player", "", function()
+      _env.ServerHop("Singapore", tonumber(SpeedHubX["Count Player"]))
+    end)
+    
+    Funcs:AddButton(_server, "Rejoin", "", function()
+      TeleportService:Teleport(game.PlaceId, Player)
+    end)
+    _server:Seperator("Status Server")
+    local _ServerCount = _server:Paragraph({["Title"] = "Server Count", ["Content"] = "" })
+    task.spawn(function()
+      while task.wait(2) do
+        _ServerCount:Set({
+          ["Title"] = "Server Count",
+          ["Content"] = tostring(#Players:GetPlayers()) .. "/12"
+        })
+      end
+    end)
+  end
+
+  local _stats = _home:Section({["Title"] = "Get Stats", ["Content"] = ""}) do
+    _stats:Seperator("Config")
+    Funcs:AddDropdown(_stats, "Point Stats", false, {"1", "5", "10", "15", "20", "25", "30", "35", "40", "50"}, {"1"})
+    _stats:Seperator("Stats")
+    for _, v in next, {"Melee", "Defense", "Sword", "Gun", "Demon Fruit"} do
+      Funcs:AddToggle(_stats, v, "", false)
+    end
+  end
+
+  local _misc = _home:Section({["Title"] = "Misc", ["Content"] = ""}) do
+    _misc:Seperator("Team")
+    Funcs:AddButton(_misc, "Join Pirates Team", "", function()
+      CommF_:InvokeServer("SetTeam", "Pirates")
+    end)
+    Funcs:AddButton(_misc, "Join Marines Team", "", function()
+      CommF_:InvokeServer("SetTeam", "Marines")
+    end)
+    _misc:Seperator("Menu UI")
+    Funcs:AddButton(_misc, "Devil Fruit Shop", "", function()
+      CommF_:InvokeServer("GetFruits")Player.PlayerGui.Main.FruitShop.Visible = true
+    end)
+    Funcs:AddButton(_misc, "Titles", "", function()
+      CommF_:InvokeServer("getTitles")Player.PlayerGui.Main.Titles.Visible = true
+    end)
+    Funcs:AddButton(_misc, "Haki Color", "", function()
+      Player.PlayerGui.Main.Colors.Visible = true
+    end)
+    _misc:Seperator("Redeem")
+    Funcs:AddButton(_misc, "Redeem Code", "", function()
+      for _, code in next, _env.CodesRedeem do
+        Remotes.Redeem:InvokeServer((function()
+          if type(code) == "string" then
+            return code
+          else
+            return tostring(code)
+          end
+        end)())
+      end
+    end)
+    _misc:Seperator("Water")
+    Funcs:AddToggle(_misc, "Walk On Water", "", true)
+    _misc:Seperator("Remove UI")
+    Funcs:AddToggle(_misc, "Remove Damage", "", false)
+    Funcs:AddToggle(_misc, "Remove Notifications", "", false)
+    _misc:Seperator("Other")
+    Funcs:AddToggle(_misc, "Auto Haki", "", true)
+    Funcs:AddToggle(_misc, "Auto Ken", "", false)
+  end
+
+  local _settings = _home:Section({["Title"] = "Settings", ["Content"] = ""}) do
+    Funcs:AddButton(_settings, "Reset Script Saver", "", function()
+      if _isfile("Speed Hub X") then
+        _delfile("Speed Hub X")
+      end
+    end)
+  end
+end
+
+local _main = Window:MakeTab("Main") do
+  local _farminglv = _main:Section({["Title"] = "Farming Level", ["Content"] = ""}) do
+    _farminglv:Seperator("Config Quest")
+    Funcs:AddToggle(_farminglv, "No Quest", "", false)
+    Funcs:AddToggle(_farminglv, "Take Quest", "", false)
+    _farminglv:Seperator("Farming")
+    Funcs:AddToggle(_farminglv, "Auto Farm Level", "", false)
+  end
+  local _farmingnear = _main:Section({["Title"] = "Farming Neareast Mob", ["Content"] = ""}) do
+    _farmingnear:Seperator("Config Neareast")
+    Funcs:AddDropdown(_farmingnear, "Neareast Range", false, {"1000","2000","3000","infinite"}, {"2000"})
+    _farmingnear:Seperator("Farming")
+    Funcs:AddToggle(_farmingnear, "Auto Farm Neareast", "", false)
+  end
+  local _farmingmastery = _main:Section({["Title"] = "Farming Mastery", ["Content"] = ""}) do
+    _farmingmastery:Seperator("Config Mastery")
+    Funcs:AddDropdown(_farmingmastery, "Choose Mastery Mode", false, {"Level","Bone","Cake Prince","Nearest"}, {"Level"})
+    Funcs:AddDropdown(_farmingmastery, "Choose Mastery Tool", false, {"Blox Fruit", "Sword", "Gun", "Melee"}, {"Blox Fruit"})
+    Funcs:AddDropdown(_farmingmastery, "Mastery Health", false, {"10", "20", "25", "30", "45", "50", "60", "70", "75", "85", "95"}, {"45"})
+    _farmingmastery:Seperator("Farming")
+    Funcs:AddToggle(_farmingmastery, "Auto Farm Mastery", "", false)
+    _farmingmastery:Seperator("Skill")
+    for _, v in next, {"Z", "X", "C", "V", "F"} do
+      Funcs:AddToggle(_farmingmastery, v .. "   ", "", true)
+    end
+  end
+  local _farmingC = _main:Section({["Title"] = "Farming/Collect Chest/Berry", ["Content"] = ""}) do
+    _farmingC:Seperator("Config Chest")
+    Funcs:AddDropdown(_farmingC, "Choose Chest Area", false, {"Mirage Island", "Island Other"}, {"Island Other"})
+    Funcs:AddToggle(_farmingC, "Auto Hop if Chest doesn't Spawned", "", true)
+    _farmingC:Seperator("Collect Chest")
+    Funcs:AddToggle(_farmingC, "Auto Collect Chest", "", false)
+    _farmingC:Seperator("Collect Berry")
+    Funcs:AddToggle(_farmingC, "Auto Collect Berry", "", false)
+    _farmingC:Seperator("Farming Other")
+    if Sea[2] then
+      Funcs:AddToggle(_farmingC, "Auto Factory", "", false)
+    elseif Sea[3] then
+      Funcs:AddToggle(_farmingC, "Auto Pirates Sea", "", false)
+    end
+  end
+  local _farmingboss = _main:Section({["Title"] = "Farming Bosses", ["Content"] = ""}) do
+    _farmingboss:Seperator("Config Boss")
+    local BossList = Funcs:AddDropdown(_farmingboss, "Select Boss", false, _env.BossesList(), {""})
+    Funcs:AddButton(_farmingboss, "Refresh Boss", "", function()
+      BossList:Clear()
+      BossList:Refresh(_env.BossesList(), {""})
+    end)
+    _farmingboss:Seperator("Farming Boss")
+    Funcs:AddToggle(_farmingboss, "Auto Attack Boss", "", false)
+    Funcs:AddToggle(_farmingboss, "Auto Attack Boss All", "", false)
+  end
+  local _farmingmaterial = _main:Section({["Title"] = "Farming Material", ["Content"] = ""}) do
+    _farmingmaterial:Seperator("Material")
+    Funcs:AddDropdown(_farmingmaterial, "Select Material", false, _env.MaterialList, {""})
+    _farmingmaterial:Seperator("Farming Material")
+    Funcs:AddToggle(_farmingmaterial, "Auto Attack Material", "", false)
+  end
+
+  local _FarmingDragon = _main:Section({["Title"] = "Dragon Events", ["Content"] = ""}) do
+    _FarmingDragon:Seperator("Quests")
+    Funcs:AddToggle(_FarmingDragon, "Auto Dojo Quests", "Get Belt: White, Yellow", false)
+    Funcs:AddToggle(_FarmingDragon, "Auto Dragon Hunter Quests", "Required: White And Yellow Belt", false)
+    _FarmingDragon:Seperator("Craft")
+    Funcs:AddToggle(_FarmingDragon, "Auto Volcanic Magnet", "", false)
+    --Funcs:AddToggle(_FarmingDragon, "Auto Dragonheart", "", false)
+    --Funcs:AddToggle(_FarmingDragon, "Auto Dragonstorm", "", false)
+  end
+end
+
+local _questitem = Window:MakeTab("Item/Quest") do
+  local _firstworld = _questitem:Section({["Title"] = "First World", ["Content"] = ""}) do
+    _firstworld:Seperator("Farming Second World")
+    Funcs:AddToggle(_firstworld, "Auto Second World", "Only Get Level 700 if Auto Sea Second!", false)
+    _fi
